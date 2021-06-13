@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-13T06:42:42.772Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="F-pJtOqJOsikWGhllZCN" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-13T06:52:52.526Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="mt8mJ2347Du8SkyfoVQn" version="14.7.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2031" dy="2258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#EEEEEE" math="0" shadow="1">
+    <mxGraphModel dx="1167" dy="2422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#EEEEEE" math="0" shadow="1">
       <root>
         <object label="" Anibal="" id="WIyWlLk6GJQsqaUBKTNV-0">
           <mxCell />
@@ -74,7 +74,7 @@
         <mxCell id="ULn3HCa_LEXOW4lo-weC-38" value="Id_Cargo (FK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;html=0;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="ULn3HCa_LEXOW4lo-weC-31">
           <mxGeometry y="210" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ULn3HCa_LEXOW4lo-weC-35" value="Id_pais" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;html=0;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="ULn3HCa_LEXOW4lo-weC-31">
+        <mxCell id="ULn3HCa_LEXOW4lo-weC-35" value="Id_pais (FK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;html=0;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="ULn3HCa_LEXOW4lo-weC-31">
           <mxGeometry y="236" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ULn3HCa_LEXOW4lo-weC-45" value="Cargo" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;strokeWidth=1;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -159,7 +159,7 @@
         <mxCell id="ULn3HCa_LEXOW4lo-weC-90" value="Dirrecion" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;html=0;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="ULn3HCa_LEXOW4lo-weC-81">
           <mxGeometry y="102" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ULn3HCa_LEXOW4lo-weC-89" value="Id_Region" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;html=0;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="ULn3HCa_LEXOW4lo-weC-81">
+        <mxCell id="ULn3HCa_LEXOW4lo-weC-89" value="Id_Region (FK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;html=0;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="ULn3HCa_LEXOW4lo-weC-81">
           <mxGeometry y="128" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ULn3HCa_LEXOW4lo-weC-91" value=" Id _Ciudad (FK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;html=0;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="ULn3HCa_LEXOW4lo-weC-81">
@@ -230,7 +230,7 @@
           <mxGeometry y="268" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ULn3HCa_LEXOW4lo-weC-123" value="Tipo Envio" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;strokeWidth=1;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1080.5" y="900" width="160" height="196" as="geometry">
+          <mxGeometry x="870" y="750" width="160" height="196" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -265,10 +265,10 @@
         <mxCell id="ULn3HCa_LEXOW4lo-weC-190" value="Id_Producto_Proveedores (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="ULn3HCa_LEXOW4lo-weC-189">
           <mxGeometry y="26" width="209" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ULn3HCa_LEXOW4lo-weC-191" value="Id_Proveedores" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;html=0;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="ULn3HCa_LEXOW4lo-weC-189">
+        <mxCell id="ULn3HCa_LEXOW4lo-weC-191" value="Id_Proveedores (FK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;html=0;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="ULn3HCa_LEXOW4lo-weC-189">
           <mxGeometry y="52" width="209" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ULn3HCa_LEXOW4lo-weC-192" value="Id_Producto" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;html=0;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="ULn3HCa_LEXOW4lo-weC-189">
+        <mxCell id="ULn3HCa_LEXOW4lo-weC-192" value="Id_Producto(FK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;html=0;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="ULn3HCa_LEXOW4lo-weC-189">
           <mxGeometry y="78" width="209" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ULn3HCa_LEXOW4lo-weC-194" value="Cantidad" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;html=0;fontColor=#1A1A1A;rounded=1;" vertex="1" parent="ULn3HCa_LEXOW4lo-weC-189">
